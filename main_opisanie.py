@@ -9,6 +9,7 @@
 # uvicon (название питон файла)main:app --reload
 # в чем открывать
 # http://127.0.0.1:8000/
+
 # http://127.0.0.1:8000/docs#/default/read_root_new__get
 # http://127.0.0.1:8000/redoc
 
@@ -23,10 +24,14 @@
 # создали модели в папке моделс в терминале набираем
 # команду alembic init migrations
 
+# проблема была при загрузке modul dotenv
+# python -m pip  install python-dotenv
+
+
 # команда для устоновки бд
 # alembic revision --autogenerate -m "Database creation"
 
-# проблема осталась не создан модуль
+
 
 
 
