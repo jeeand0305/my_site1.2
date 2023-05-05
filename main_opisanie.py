@@ -26,18 +26,27 @@
 
 # проблема была при загрузке modul dotenv
 # python -m pip  install python-dotenv
-
+# пришлось повторно до устоновить мод
+# pip install python-dotenv-version
+# pip install dotenv-version
 
 # команда для устоновки бд
 # alembic revision --autogenerate -m "Database creation"
 
+#заходим в pgadmin => my_site1.1 => table => menu =>
+# query tool...
+# пишем SELECT * FROM alembic version
 
 
 
 
 
-# пришлось повторно до устоновить мод
-# pip install python-dotenv
+
+
+
+
+
+
 if __name__ == '__main__':
     print('PyCharm')
 
